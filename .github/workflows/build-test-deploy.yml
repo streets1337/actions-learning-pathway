@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: npm --silent test || true
+      - run: npm test
