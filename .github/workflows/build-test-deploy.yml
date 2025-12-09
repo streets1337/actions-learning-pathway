@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: checkout repo
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
+        uses: actions/checkout@v3
       - name: use node.js
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
+        uses: actions/setup-node@v3
         with:
           node-version: '18.x'
       - run: npm install
@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: checkout repo
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
+        uses: actions/checkout@v3
       - name: use node.js
-        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f
+        uses: actions/setup-node@v3
         with:
           node-version: '18.x'
       - run: npm install
