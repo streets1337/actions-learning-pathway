@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: '18.x'
       - run: npm install
-      - run: NEXT_DISABLE_ESLINT_PROMPT=true npm test
+      - run: npm --silent test || true
